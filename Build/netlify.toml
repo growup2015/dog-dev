@@ -1,0 +1,17 @@
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Content-Encoding = "gzip"
+    Content-Type = "application/javascript"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Content-Encoding = "gzip"
+    Content-Type = "text/css"
+
+[[headers]]
+  for = "/*.wasm"
+  [headers.values]
+    Content-Encoding = "gzip"
+    Content-Type = "application/wasm"
