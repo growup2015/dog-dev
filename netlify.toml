@@ -16,6 +16,6 @@
     X-XSS-Protection = "1; mode=block"
 
 [[headers]]
-  for = "/*"
+  for = "*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
