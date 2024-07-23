@@ -1,5 +1,5 @@
 [build]
-  publish = "build"
+  publish = "Build"
   command = "npm run build"
 
 [[redirects]]
@@ -19,3 +19,4 @@
   for = "/Build/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
+    Content-Type = "application/wasm"
